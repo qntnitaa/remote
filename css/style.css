@@ -1,0 +1,56 @@
+p {
+    color: cadetblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/id/1422642328/photo/white-concrete-texture-polished-wall-background-grey-retro-plain-color-cement-crack-have-sand.webp?b=1&s=170667a&w=0&k=20&c=3c1Sl6QKre4BFLDDweQSaJliRAKMyV3I95y9ERcPu6I=");
+}
+
+fieldset, legend{
+    border-width: 2px;
+    border-color: tomato;
+    border-radius: 30px;
+}
+
+legend{
+    padding: 10px;
+    background-color: aquamarine;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+table{
+    border: 10px;
+    margin: auto;
+}
+
+tr{
+    padding: 5px;
+    border: 1px solid green;
+}
+
+tr:hover{
+    background-color: aqua;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#paragraph{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: aqua;
+}
+
+ul, li, a.item:link, a.item:visited, a.item:active{
+    text-decoration: none;
+    list-style: none; /*menghilangkan titik pada list*/
+    display: block;
+    float: left;
+    padding: 2px 3px;
+    background-color: white;
+}
